@@ -21,8 +21,7 @@ ui <- fluidPage(
     mainPanel(
       tabsetPanel(
         tabPanel("Regression Coefficients", verbatimTextOutput("modelSummary")),
-        tabPanel("Predicted Screen Time", plotOutput("pred_plot")),
-        tabPanel("Debug", verbatimTextOutput("debug"))
+        tabPanel("Predicted Screen Time", plotOutput("pred_plot"))
       )
     )
   )
